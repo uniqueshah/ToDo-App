@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #e9edc9;
+}
+section {
+  width: 40vw;
+  margin: 150px auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+div button {
+  margin-left: 60px;
+  border: 3px solid blue;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  background-color: blue;
+  color: white;
+  font-weight: bold;
+}
+div button:hover {
+  transform: scale(1.02);
+  background-color: white;
+  color: blue;
+}
+div input {
+  font-size: 1rem;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+ul li {
+  padding-top: 10px;
+  margin-top: 15px;
+  margin-left: 20px;
+  font-weight: bold;
+  list-style: none;
+  transition: all 0.3s ease-in-out;
+  width: 60%;
+}
+ul li:hover {
+  transform: scale(1.03);
+}
+li button {
+  font-size: 10px;
+  padding: 5px;
+  font-weight: bold;
+  transition: none;
+}
+hr {
+  width: 45%;
+  margin: 10px;
+}
+@media all and (max-width: 1024px) {
+  div button {
+    margin-left: 20px;
+  }
+}
+@media all and (max-width: 922px) {
+  div input {
+    font-size: 0.5rem;
+  }
+  div button {
+    font-size: 0.5rem;
+    margin-left: 10px;
+  }
+  ul li {
+    font-weight: normal;
+    font-size: 0.5rem;
+  }
+  hr {
+    margin: 7px;
+  }
+}
+@media all and (max-width: 528px) {
+  div button {
+    margin: 2px;
+    padding: 5px;
+  }
+  div input {
+    padding: 5px;
+  }
+  ul li {
+    margin-top: 5px;
+    padding-top: 5px;
+  }
+  li button {
+    padding: 3px;
+  }
+}
+@media all and (min-width: 280px) and (max-width: 465px) {
+  div input {
+    font-size: 5px;
+    padding: 3px;
+  }
+  div button {
+    font-size: 5px;
+    padding: 3px;
+  }
+  hr {
+    width: 70%;
+  }
+}
